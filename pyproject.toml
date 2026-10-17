@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "variational-mixture"
+version = "0.1.0"
+description = "Variational inference for Bayesian Gaussian mixture models"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

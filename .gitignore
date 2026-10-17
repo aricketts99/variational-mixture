@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Generated results
+results/
+*.csv
+*.pkl
+*.pickle
+*.zst
+*.zip
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
